@@ -1,9 +1,9 @@
-#  (2025-01-11)
+#  (2025-02-09)
 
 
 ### docs
 
-* update CHANGELOG.md [skip ci] ([](https://github.com/pos-fiap-schepis/projeto-template/commit/8e78fa74bbb6841fbb80b02cd21ba5dbbb71afd1))
+* update CHANGELOG.md [skip ci] ([](https://github.com/pos-fiap-schepis/gitops-apps/commit/efe02e932d168c7c077a8219edbc392111d73ac8))
 
 
 
