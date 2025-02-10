@@ -1,9 +1,10 @@
-#  (2025-02-09)
+#  (2025-02-10)
 
 
 ### Bug Fixes
 
 * create persistence volume ([539fc04](https://github.com/pos-fiap-schepis/gitops-apps/commit/539fc04a93c63a4899a55e2615b6b7a8529dbfc8))
+* kustomization in flux-system ([5e9105c](https://github.com/pos-fiap-schepis/gitops-apps/commit/5e9105cd284cad344a6882d5ddfcd53f157fe90b))
 
 
 ### Features
