@@ -1,5 +1,18 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources:
-- gotk-components.yaml
-- gotk-sync.yaml
+metadata:
+  name: gitops-apps
+  namespace: flux-system
+spec:
+  interval: 5m
+  path: "./apps"  # Ensure this points to the correct location
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: flux-system
+  validation: client
+  resources:
+    - ../../apps/keycloak
+    - ../../apps/minio
+    - ../../apps/rabbitmq
+    - ../../apps/sonar
